@@ -6,6 +6,7 @@ export const List = styled.ul`
   padding-top: 15px;
   padding-bottom: 15px;
 `;
+
 export const ListItem = styled.li`
   display: flex;
   gap: 10px;
