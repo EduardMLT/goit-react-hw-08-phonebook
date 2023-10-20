@@ -8,7 +8,7 @@ import {
 import { useDispatch } from 'react-redux';
 
 import * as Yup from 'yup';
-import { userLogIn } from 'redux/auth/operetion';
+import { userLogIn } from 'redux/auth/operations';
 
 const schema = Yup.object({
   email: Yup.string().email().required('Must be filled'),
