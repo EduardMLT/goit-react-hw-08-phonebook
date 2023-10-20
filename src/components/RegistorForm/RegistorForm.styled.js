@@ -17,9 +17,7 @@ export const StyledField = styled(Field)`
 `;
 
 export const Block = styled.div`
-  /* border: 4px solid purple;
-  width: 500px; */
-  /* margin: 0 auto; */
+ 
   width: 300px;
   display: flex;
   flex-direction: column;
