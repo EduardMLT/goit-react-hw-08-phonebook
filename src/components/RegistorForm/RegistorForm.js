@@ -1,5 +1,10 @@
 import { ErrorMessage, Formik } from 'formik';
-import { Block, StyledField, StyledForm } from './RegistorForm.styled';
+import {
+  Block,
+  StyledField,
+  StyledForm,
+  ButtonRegForm,
+} from './RegistorForm.styled';
 
 import { useDispatch } from 'react-redux';
 import { userRegistration } from 'redux/auth/operations';
@@ -50,7 +55,7 @@ export const RegistorForm = () => {
           />
           <ErrorMessage name="password" component="div" />
 
-          <button type="submit">Registration</button>
+          <ButtonRegForm type="submit">Registration</ButtonRegForm>
         </StyledForm>
       </Formik>
     </Block>

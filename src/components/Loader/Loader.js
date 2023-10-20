@@ -1,18 +1,22 @@
-import { Oval } from 'react-loader-spinner';
-import { Block } from './Loader.styled';
+import { ThreeCircles } from 'react-loader-spinner';
+
+import { LoaderDiv } from './Loader.styled';
 
 export const Loader = () => {
   return (
-    <Block>
-      <Oval
-        ariaLabel="loading-indicator"
-        height={100}
-        width={100}
-        strokeWidth={2000}
-        strokeWidthSecondary={2030}
-        color="blue"
-        secondaryColor="yellow"
+    <LoaderDiv>
+      <ThreeCircles
+        height="100"
+        width="100"
+        color="#4fa94d"
+        wrapperStyle={{}}
+        wrapperClass=""
+        visible={true}
+        ariaLabel="three-circles-rotating"
+        outerCircleColor="#6aa290"
+        innerCircleColor="#8bdfc3"
+        middleCircleColor="#6aa290"
       />
-    </Block>
+    </LoaderDiv>
   );
 };

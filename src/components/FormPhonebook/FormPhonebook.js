@@ -1,5 +1,10 @@
 import { Formik, ErrorMessage } from 'formik';
-import { Block, StyledField, StyledForm } from './FormPhonebook.styled';
+import {
+  Block,
+  StyledField,
+  StyledForm,
+  ButtonFormPhone,
+} from './FormPhonebook.styled';
 import * as Yup from 'yup';
 import { useDispatch, useSelector } from 'react-redux';
 import { myContacts } from 'redux/selectors';
@@ -44,7 +49,7 @@ export const FormPhonebook = () => {
           <StyledField type="tel" name="number" />
           <ErrorMessage name="number" component="div" />
 
-          <button type="submit">Add contact</button>
+          <ButtonFormPhone type="submit">Add contact</ButtonFormPhone>
         </StyledForm>
       </Formik>
     </Block>

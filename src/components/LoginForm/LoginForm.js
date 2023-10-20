@@ -1,5 +1,10 @@
 import { ErrorMessage, Formik } from 'formik';
-import { Block, StyledField, StyledForm } from './LoginForm.styled';
+import {
+  Block,
+  StyledField,
+  StyledForm,
+  ButtonLoginForm,
+} from './LoginForm.styled';
 import { useDispatch } from 'react-redux';
 
 import * as Yup from 'yup';
@@ -42,7 +47,7 @@ export const LoginForm = () => {
           />
           <ErrorMessage name="password" component="div" />
 
-          <button type="submit">Log In</button>
+          <ButtonLoginForm type="submit">Log In</ButtonLoginForm>
         </StyledForm>
       </Formik>
     </Block>

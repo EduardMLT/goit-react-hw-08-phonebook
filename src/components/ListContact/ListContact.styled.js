@@ -16,10 +16,15 @@ export const ListItem = styled.li`
 `;
 
 export const Button = styled.button`
-  background-color: red;
+  background-color: #6aa290;
   color: white;
   padding: 5px 5px;
   cursor: pointer;
+
+  &:hover,
+  :focus {
+    background-color: tomato;
+  }
 `;
 
 export const LookButton = styled.div`

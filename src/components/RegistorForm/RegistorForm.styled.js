@@ -20,3 +20,17 @@ export const Block = styled.div`
   width: 500px;
   margin: 0 auto;
 `;
+
+export const ButtonRegForm = styled.button`
+  width: 100px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  margin-right: auto;
+  background: #abcec300;
+
+  &:hover,
+  :focus {
+    background-color: #6aa290;
+  }
+`;
