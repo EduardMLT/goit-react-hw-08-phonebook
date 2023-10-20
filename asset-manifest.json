@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.7cda0caf.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.bf3d2f8d.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.c8ce4c81.js",
     "static/js/964.717700d2.chunk.js": "/goit-react-hw-08-phonebook/static/js/964.717700d2.chunk.js",
-    "static/js/538.deade67e.chunk.js": "/goit-react-hw-08-phonebook/static/js/538.deade67e.chunk.js",
+    "static/js/538.fc41f07d.chunk.js": "/goit-react-hw-08-phonebook/static/js/538.fc41f07d.chunk.js",
     "static/js/985.13137fe6.chunk.js": "/goit-react-hw-08-phonebook/static/js/985.13137fe6.chunk.js",
-    "static/js/826.8a196f28.chunk.js": "/goit-react-hw-08-phonebook/static/js/826.8a196f28.chunk.js",
+    "static/js/826.a567fcab.chunk.js": "/goit-react-hw-08-phonebook/static/js/826.a567fcab.chunk.js",
     "static/js/568.97e1d9a3.chunk.js": "/goit-react-hw-08-phonebook/static/js/568.97e1d9a3.chunk.js",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.7cda0caf.css.map": "/goit-react-hw-08-phonebook/static/css/main.7cda0caf.css.map",
-    "main.bf3d2f8d.js.map": "/goit-react-hw-08-phonebook/static/js/main.bf3d2f8d.js.map",
+    "main.c8ce4c81.js.map": "/goit-react-hw-08-phonebook/static/js/main.c8ce4c81.js.map",
     "964.717700d2.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/964.717700d2.chunk.js.map",
-    "538.deade67e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/538.deade67e.chunk.js.map",
-    "826.8a196f28.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/826.8a196f28.chunk.js.map",
+    "538.fc41f07d.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/538.fc41f07d.chunk.js.map",
+    "826.a567fcab.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/826.a567fcab.chunk.js.map",
     "568.97e1d9a3.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/568.97e1d9a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cda0caf.css",
-    "static/js/main.bf3d2f8d.js"
+    "static/js/main.c8ce4c81.js"
   ]
 }
