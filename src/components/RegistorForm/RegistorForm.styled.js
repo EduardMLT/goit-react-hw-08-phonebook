@@ -11,14 +11,22 @@ export const StyledForm = styled(Form)`
 `;
 
 export const StyledField = styled(Field)`
+  width: 90%;
   padding: 4px;
-  margin-bottom: 15px;
+  margin: auto;
 `;
 
 export const Block = styled.div`
-  border: 4px solid purple;
-  width: 500px;
-  margin: 0 auto;
+  /* border: 4px solid purple;
+  width: 500px; */
+  /* margin: 0 auto; */
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  margin: 15px auto;
+  border-radius: 8px;
+  box-shadow: 1px 1px 8px 0px tomato;
 `;
 
 export const ButtonRegForm = styled.button`
